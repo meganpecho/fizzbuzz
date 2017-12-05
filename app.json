@@ -1,0 +1,26 @@
+{
+	"name": "FizzerBuzzer",
+	"description": "A phone service that will read out the fizzes and the buzzes up to a given number.",
+	"keywords": [
+		"node.js",
+		"twilio"
+	],
+	"website": "",
+  "repository": "https://github.com/meganpecho/fizzbuzz",
+  "success_url": "/landing.html",
+	"env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Twilio account secret ID",
+      "value": "ACac3d7f809a79ffa31bbd24262e7720ad"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Secret Twilio Auth token",
+      "value": "8e127fcd8e84d12f9423b44dc2533630"
+    },
+    "TWILIO_NUMBER": {
+      "description": "Twilio phone number",
+      "value": "+16305909036"
+    }
+  }
+
+}
