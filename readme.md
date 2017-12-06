@@ -1,6 +1,10 @@
 # FizzerBuzzer -- LendUp Challenge
 A web application that calls the entered number and has the person called choose a number to be fizzbuzzed.
 
+### Live Version
+The live version lives here: [https://fizzerbuzzer.herokuapp.com/](https://fizzerbuzzer.herokuapp.com/).
+But if you want to run it locally, below is the configuration.
+
 ### Configuration
 
 ##### Set your environmental variables
@@ -10,6 +14,7 @@ TWILIO_ACCOUNT_SID=AC********************************* //Fake
 TWILIO_AUTH_TOKEN=8******************************* //Fake
 TWILIO_NUMBER=+16305550129 //Fake
 ```
+Run `npm install dotenv --save` in the root folder.
 
 ##### Make it run
 1. Run `npm install` in the root folder
