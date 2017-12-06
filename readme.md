@@ -20,7 +20,7 @@ Run `npm install dotenv --save` in the root folder.
 ##### Make it run
 1. Run `npm install` in the root folder
 2. Start your ngrok with `ngrok http 3000` (or `./ngrok http 3000` for Terminal)
-3. Set you Twilio webhook to your specific `http://********.ngrok.io/voice` address
+3. Set your Twilio webhook to your specific `http://********.ngrok.io/voice` address
 4. Run `node app.js`
 5. Open your specific `http://********.ngrok.io` in a browser (preferably Chrome), no `/voice`
 6. Boom. Done. Call someone.
