@@ -2,7 +2,8 @@
 A web application that calls the entered number and has the person called choose a number to be fizzbuzzed.
 
 ### Live Version
-The live version lives here: [https://fizzerbuzzer.herokuapp.com/](https://fizzerbuzzer.herokuapp.com/).
+The live version lives here: [https://fizzerbuzzer.herokuapp.com/](https://fizzerbuzzer.herokuapp.com/). (This can only call verified numbers as it is a trial Twilio account.)
+
 But if you want to run it locally, below is the configuration.
 
 ### Configuration
