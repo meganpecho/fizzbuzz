@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+  head
+    title FizzerBuzzer
+
+    link(rel='stylesheet',
+      href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet',
+      href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type="text/css", href="/css/normalize.css")
+
+    // Include CSS for our third-party telephone input jQuery plugin
+    //link(rel='stylesheet', href='/vendor/intl-phone/css/intlTelInput.css')
+  body
+    .container
+      h1 FizzerBuzzer
+      p.
+        Have us call a phone number of your choice and fizzbuzz a number for them.
+
+      hr
+
+      .row
+        .col-md-12
+          form(id='contactForm', role='form')
+            .form-group
+            label Phone Number (
+              i with country and area code, and no spaces or extra characters
+              | )
+            .form-group
+              input.form-control(type='text', id='phoneNumber',
+                placeholder='6515557889')
+            label Time Delay (
+              i optional
+              | )
+            .form-group
+              select.form-control(id='delay')
+                option(selected value="0") 0 seconds
+                option(value="10000") 10 seconds
+                option(value="30000") 30 seconds
+                option(value="60000") 1 minute
+                option(value="300000") 5 minutes
+                option(value="36000000") 1 hour
+
+            button(type='submit', class='btn btn-default') Place Call
+
+    // Include page dependencies
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    //script(src='/vendor/intl-phone/js/intlTelInput.min.js')
+
+    // Our app's front-end JavaScript logic
+    script(src='/app.js')

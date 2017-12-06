@@ -1,0 +1,16 @@
+{
+  "name": "FizzerBuzzer",
+  "description": "Fizz Buzz Phone Call",
+  "keywords": [
+    "node.js",
+    "API",
+    "twilio",
+    "expressjs",
+    "Express",
+    "Telephone API",
+    "Voice API",
+    "REST API"
+  ],
+  "repository": "https://github.com/meganpecho/fizzbuzz",
+  "success_url": "/landing.html",
+}
