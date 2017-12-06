@@ -1,6 +1,4 @@
 # FizzerBuzzer -- LendUp Challenge
-###### Megan Pecho
----
 A web application that calls the entered number and has the person called choose a number to be fizzbuzzed.
 
 ### Configuration
